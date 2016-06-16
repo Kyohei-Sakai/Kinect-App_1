@@ -1,0 +1,17 @@
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\bin\Debug\kinect.0625.HDface.exe.config
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\kinect.0625.HDface.csprojResolveAssemblyReference.cache
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\MainWindow.baml
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\MainWindow.g.cs
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\App.g.cs
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\kinect.0625.HDface_MarkupCompile.cache
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\kinect.0625.HDface.g.resources
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\kinect._0625.HDface.Properties.Resources.resources
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\kinect.0625.HDface.csproj.GenerateResource.Cache
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\bin\Debug\kinect.0625.HDface.exe
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\bin\Debug\kinect.0625.HDface.pdb
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\bin\Debug\Microsoft.Kinect.dll
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\bin\Debug\Microsoft.Kinect.Face.dll
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\bin\Debug\Microsoft.Kinect.xml
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\bin\Debug\Microsoft.Kinect.Face.xml
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\kinect.0625.HDface.exe
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0625.HDface\kinect.0625.HDface\obj\Debug\kinect.0625.HDface.pdb

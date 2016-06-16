@@ -1,0 +1,85 @@
+﻿<Window x:Class="kinect._0706.ex1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="小五郎を眠らせろ!" SizeToContent="WidthAndHeight"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing" Height="1000" Width="2500"
+        >
+    <Window.Resources>
+        <Style x:Key="GridLineStyle" TargetType="Line">
+            <Setter Property="StrokeThickness" Value="1" />
+            <Setter Property="Stroke" Value="LightGray" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <SolidColorBrush Color="#FFC7F2F9"/>
+    </Window.Background>
+
+    <Grid Height="900" Width="2000" Margin="39,36,453,33">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="997*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <SolidColorBrush Color="#FFFFCBAD"/>
+        </Grid.Background>
+        <Image x:Name="ImageDepth" Width="256" Height="212" Margin="1730,678,8,10" Visibility="Hidden"  />
+        <Image x:Name="ImageColor" Width="384" Height="216" Margin="40,674,-418,10" Grid.Column="1" />
+        <Canvas x:Name="CanvasLine" Grid.ColumnSpan="2"/>
+        <Canvas x:Name="CanvasBody" Grid.ColumnSpan="2"/>
+        <Canvas x:Name="CanvasTarget" Grid.ColumnSpan="2"/>
+        <Canvas x:Name="CanvasBurn" Grid.ColumnSpan="2"/>
+        <Canvas x:Name="CanvasPoint" Grid.ColumnSpan="2" >
+            <Image x:Name="TargetImage" Canvas.Left="2042" Canvas.Top="777" Source="Resources/小五郎　起き.jpg" Height="116" Width="119" Visibility="Hidden"/>
+            <Image x:Name="TargetImage2" Canvas.Left="2042" Canvas.Top="777" Source="Resources/小五郎　眠り.jpg" Height="116" Width="119" Visibility="Hidden"/>
+        </Canvas>
+
+        <Label x:Name="score" Content="0点" HorizontalAlignment="Left" Margin="76,220,-206,0" VerticalAlignment="Top" Height="67" Width="136" FontWeight="Bold" FontSize="48" Grid.Column="1"/>
+        <Label x:Name="finish" Content="君は小五郎を0人眠らせた！" HorizontalAlignment="Left" Margin="532,148,0,0" VerticalAlignment="Top" Height="170" Width="967" FontSize="72" FontWeight="Bold" Visibility="Hidden"/>
+        <Label x:Name="startmessarge" Content="準備ができたら左手をあげてね！" HorizontalAlignment="Left" Margin="76,119,0,0" VerticalAlignment="Top" Height="96" Width="514" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="xd" Content="" HorizontalAlignment="Left" Margin="180,30,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="yd" Content="" HorizontalAlignment="Left" Margin="180,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="yz" Content="" HorizontalAlignment="Left" Margin="180,148,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="あと0秒" FontSize="48" Margin="76,372,-277,457" FontWeight="Bold" Grid.Column="1"/>
+        <Button Content="RESET" Click="Button_Click" Margin="76,16,-393,800" Grid.Column="1"/>
+        
+        <ComboBox x:Name="speed" Grid.Column="1" HorizontalAlignment="Left" Margin="283,220,-418,0" VerticalAlignment="Top" Width="141" Height="24">
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4" IsSelected="True"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        
+        <ComboBox x:Name="ptsize" Grid.Column="1" HorizontalAlignment="Left" Margin="283,294,-418,0" VerticalAlignment="Top" Width="141" Height="24">
+            <ComboBoxItem Content="50"/>
+            <ComboBoxItem Content="60" IsSelected="True"/>
+            <ComboBoxItem Content="70"/>
+            <ComboBoxItem Content="80"/>
+        </ComboBox>
+
+        <ComboBox x:Name="tgsize" Grid.Column="1" HorizontalAlignment="Left" Margin="283,372,-418,0" VerticalAlignment="Top" Width="141" Height="24">
+            <ComboBoxItem Content="80"/>
+            <ComboBoxItem Content="100" IsSelected="True"/>
+            <ComboBoxItem Content="120"/>
+            <ComboBoxItem Content="140"/>
+        </ComboBox>
+
+        <ComboBox x:Name="Time" Grid.Column="1" HorizontalAlignment="Left" Margin="283,448,-418,0" VerticalAlignment="Top" Width="141" Height="24">
+            <ComboBoxItem Content="15"/>
+            <ComboBoxItem Content="30" IsSelected="True"/>
+            <ComboBoxItem Content="45"/>
+            <ComboBoxItem Content="60"/>
+        </ComboBox>
+        <Label Content="カーソルスピード" Grid.Column="1" HorizontalAlignment="Left" Margin="283,190,-377,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="ポインターサイズ" Grid.Column="1" HorizontalAlignment="Left" Margin="283,269,-377,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="的の大きさ" Grid.Column="1" HorizontalAlignment="Left" Margin="283,347,-377,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="制限時間" Grid.Column="1" HorizontalAlignment="Left" Margin="283,423,-377,0" VerticalAlignment="Top" Width="100"/>
+
+
+
+
+    </Grid>
+
+
+</Window>

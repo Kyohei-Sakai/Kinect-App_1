@@ -1,0 +1,16 @@
+﻿<Window x:Class="kinect._0615.ex3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect for Windows SDK v2" SizeToContent="WidthAndHeight"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing" Height="825" Width="742"
+        >
+    <Grid Width="512" Height="424" Margin="109,63,113,307">
+        <Canvas x:Name="CanvasBody"/>
+        <Label x:Name="x1" Content="x" HorizontalAlignment="Right" Height="34" Margin="-35,444,491,-54" VerticalAlignment="Top" Width="56"/>
+        <Label x:Name="y1" Content="y" HorizontalAlignment="Left" Height="34" Margin="241,444,0,-54" VerticalAlignment="Top" Width="56"/>
+        <Label x:Name="x2" Content="x" HorizontalAlignment="Left" Height="34" Margin="-35,527,0,-137" VerticalAlignment="Top" Width="56"/>
+        <Label x:Name="y2" Content="y" HorizontalAlignment="Left" Height="34" Margin="241,527,0,-137" VerticalAlignment="Top" Width="56"/>
+
+    </Grid>
+</Window>

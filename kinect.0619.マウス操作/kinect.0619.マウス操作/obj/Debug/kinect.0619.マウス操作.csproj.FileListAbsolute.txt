@@ -1,0 +1,15 @@
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\bin\Debug\kinect.0619.マウス操作.exe.config
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\bin\Debug\kinect.0619.マウス操作.exe
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\bin\Debug\kinect.0619.マウス操作.pdb
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\bin\Debug\Microsoft.Kinect.dll
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\bin\Debug\Microsoft.Kinect.xml
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\kinect.0619.マウス操作.csprojResolveAssemblyReference.cache
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\MainWindow.baml
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\MainWindow.g.cs
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\App.g.cs
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\kinect.0619.マウス操作_MarkupCompile.cache
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\kinect.0619.マウス操作.g.resources
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\kinect._0619.マウス操作.Properties.Resources.resources
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\kinect.0619.マウス操作.csproj.GenerateResource.Cache
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\kinect.0619.マウス操作.exe
+c:\users\sakai\documents\visual studio 2013\Projects\kinect.0619.マウス操作\kinect.0619.マウス操作\obj\Debug\kinect.0619.マウス操作.pdb
